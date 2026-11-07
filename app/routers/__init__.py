@@ -1,0 +1,1 @@
+"""Rotas organizadas por recurso."""

@@ -1,0 +1,5 @@
+fastapi==0.162.2
+uvicorn==0.54.0
+SQLAlchemy==2.1.8
+pydantic[email]==2.14.3
+pwdlib[argon2]==0.3.1

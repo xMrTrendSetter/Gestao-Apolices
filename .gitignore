@@ -1,0 +1,44 @@
+# Ambientes e caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Bancos locais, inclusive sessões, usuários e arquivos auxiliares SQLite
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Credenciais e arquivos locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ferramentas e saídas locais
+.agents/
+.codex/
+artifacts/
+dist/
+build/
+*.egg-info/
+
+# Exportações locais do cliente HTTP podem conter tokens
+.insomnia/
+Insomnia*.json
+Insomnia*.yaml
+Insomnia*.yml
